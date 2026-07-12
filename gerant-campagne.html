@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cotisations — Nouvelle campagne</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="demo-nav">
+  <span class="tag">Démo</span>
+  <a href="index.html">Login</a>
+  <a href="inscription.html">Inscription</a>
+  <a href="gerant-dashboard.html">Dashboard Gérant</a>
+  <a href="gerant-paiement.html">Paiement</a>
+  <a href="gerant-campagne.html" class="active">Campagne</a>
+  <a href="gerant-apprenants.html">Apprenants</a>
+  <a href="gerant-relances.html">Relances</a>
+  <a href="apprenant-dashboard.html">Dashboard Apprenant</a>
+  <a href="coach-dashboard.html">Dashboard Coach</a>
+</nav>
+
+<header class="app">
+  <span class="brand">💰 Cotisations</span>
+  <span class="page-label">Nouvelle campagne</span>
+</header>
+
+<main>
+  <h1>Créer une campagne ponctuelle</h1>
+  <p class="subtitle">Choisissez le type d'événement.</p>
+
+  <div class="card">
+    <label>Type de campagne</label>
+    <div class="option option-selected">🎂 Anniversaire — montant fixe</div>
+    <div class="option">🕊️ Décès — montant libre, 7 jours</div>
+    <div class="option">📦 Autre événement</div>
+
+    <label style="margin-top:6px;">Montant par apprenant (FCFA)</label>
+    <input type="text" placeholder="1 000">
+
+    <label>Date limite</label>
+    <input type="text" placeholder="Dernière semaine du mois">
+
+    <button class="btn btn-amber">Publier la campagne</button>
+  </div>
+</main>
+
+</body>
+</html>

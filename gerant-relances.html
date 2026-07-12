@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cotisations — Relances</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="demo-nav">
+  <span class="tag">Démo</span>
+  <a href="index.html">Login</a>
+  <a href="inscription.html">Inscription</a>
+  <a href="gerant-dashboard.html">Dashboard Gérant</a>
+  <a href="gerant-paiement.html">Paiement</a>
+  <a href="gerant-campagne.html">Campagne</a>
+  <a href="gerant-apprenants.html">Apprenants</a>
+  <a href="gerant-relances.html" class="active">Relances</a>
+  <a href="gerant-relances.html">Relances</a>
+  <a href="apprenant-dashboard.html">Dashboard Apprenant</a>
+  <a href="coach-dashboard.html">Dashboard Coach</a>
+</nav>
+
+<header class="app">
+  <span class="brand">💰 Cotisations</span>
+  <span class="page-label">Relancer les retardataires</span>
+</header>
+
+<main>
+  <h1>Retardataires</h1>
+  <p class="subtitle">Détection automatique des paiements en retard.</p>
+
+  <div class="banner banner-red">
+    🔍 3 apprenants détectés en retard sur les 6 dernières semaines
+  </div>
+
+  <div class="card">
+    <div class="list-row" style="justify-content:space-between;">
+      <div class="list-row" style="padding:0; border:none;">
+        <div class="avatar">MD</div>
+        <div><div class="name">Moussa Diop</div><div class="meta" style="color:var(--red);">2 semaines de retard</div></div>
+      </div>
+      <button class="btn btn-outline" style="width:auto; padding:6px 12px; font-size:11px;">Relancer</button>
+    </div>
+    <div class="list-row" style="justify-content:space-between;">
+      <div class="list-row" style="padding:0; border:none;">
+        <div class="avatar">FN</div>
+        <div><div class="name">Fatou Ndao</div><div class="meta" style="color:var(--red);">1 semaine de retard</div></div>
+      </div>
+      <button class="btn btn-outline" style="width:auto; padding:6px 12px; font-size:11px;">Relancer</button>
+    </div>
+    <div class="list-row" style="justify-content:space-between;">
+      <div class="list-row" style="padding:0; border:none;">
+        <div class="avatar">IF</div>
+        <div><div class="name">Ibra Fall</div><div class="meta" style="color:var(--red);">3 semaines de retard</div></div>
+      </div>
+      <button class="btn btn-outline" style="width:auto; padding:6px 12px; font-size:11px;">Relancer</button>
+    </div>
+  </div>
+
+  <button class="btn btn-amber">Relancer tous les retardataires</button>
+</main>
+
+</body>
+</html>

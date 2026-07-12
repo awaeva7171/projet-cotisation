@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cotisations — Supervision</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="demo-nav">
+  <span class="tag">Démo</span>
+  <a href="index.html">Login</a>
+  <a href="inscription.html">Inscription</a>
+  <a href="gerant-dashboard.html">Dashboard Gérant</a>
+  <a href="gerant-paiement.html">Paiement</a>
+  <a href="gerant-campagne.html">Campagne</a>
+  <a href="gerant-apprenants.html">Apprenants</a>
+  <a href="gerant-relances.html">Relances</a>
+  <a href="apprenant-dashboard.html">Dashboard Apprenant</a>
+  <a href="coach-dashboard.html" class="active">Dashboard Coach</a>
+</nav>
+
+<header class="app">
+  <span class="brand">💰 Cotisations</span>
+  <span class="page-label">Supervision</span>
+</header>
+
+<main>
+  <h1>Vue d'ensemble</h1>
+  <p class="subtitle">Lecture seule · Audit de la classe</p>
+
+  <div class="stat-row">
+    <div class="stat">
+      <div class="label">Trésorerie totale</div>
+      <div class="value value-green">1 240 000 F</div>
+    </div>
+    <div class="stat">
+      <div class="label">Taux de recouvrement</div>
+      <div class="value">87%</div>
+    </div>
+  </div>
+
+  <h2 style="font-size:14px; margin-bottom:8px;">Dernières transactions</h2>
+  <div class="card">
+    <div class="list-row" style="justify-content:space-between;">
+      <div><div class="name">Moussa Diop</div><div class="meta">Semaine 6</div></div>
+      <span style="color:var(--green); font-weight:700; font-size:12px;">500 FCFA</span>
+    </div>
+    <div class="list-row" style="justify-content:space-between;">
+      <div><div class="name">Fatou Ndao</div><div class="meta">Anniversaire</div></div>
+      <span style="color:var(--green); font-weight:700; font-size:12px;">1 000 FCFA</span>
+    </div>
+    <div class="list-row" style="justify-content:space-between;">
+      <div><div class="name">Ibra Fall</div><div class="meta">Semaine 6</div></div>
+      <span style="color:var(--green); font-weight:700; font-size:12px;">500 FCFA</span>
+    </div>
+  </div>
+
+  <button class="btn btn-navy">Exporter le rapport</button>
+</main>
+
+</body>
+</html>

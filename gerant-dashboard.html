@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cotisations — Dashboard Gérant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="demo-nav">
+  <span class="tag">Démo</span>
+  <a href="index.html">Login</a>
+  <a href="inscription.html">Inscription</a>
+  <a href="gerant-dashboard.html" class="active">Dashboard Gérant</a>
+  <a href="gerant-paiement.html">Paiement</a>
+  <a href="gerant-campagne.html">Campagne</a>
+  <a href="gerant-apprenants.html">Apprenants</a>
+  <a href="gerant-relances.html">Relances</a>
+  <a href="apprenant-dashboard.html">Dashboard Apprenant</a>
+  <a href="coach-dashboard.html">Dashboard Coach</a>
+</nav>
+
+<header class="app">
+  <span class="brand">💰 Cotisations</span>
+  <span class="page-label">Tableau de bord — Gérant</span>
+</header>
+
+<main class="wide">
+  <h1>Suivi hebdomadaire</h1>
+  <p class="subtitle">Semaines 1 à 6 / 40 · Vert = payé, Rouge = retard</p>
+
+  <div class="grid-weeks">
+    <div></div>
+    <div class="head">S1</div><div class="head">S2</div><div class="head">S3</div>
+    <div class="head">S4</div><div class="head">S5</div><div class="head">S6</div>
+
+    <div class="name">Awa Sarr</div>
+    <div class="cell cell-paid">✓</div><div class="cell cell-paid">✓</div><div class="cell cell-late">✕</div>
+    <div class="cell cell-paid">✓</div><div class="cell cell-paid">✓</div><div class="cell cell-paid">✓</div>
+
+    <div class="name">Moussa Diop</div>
+    <div class="cell cell-paid">✓</div><div class="cell cell-late">✕</div><div class="cell cell-paid">✓</div>
+    <div class="cell cell-paid">✓</div><div class="cell cell-paid">✓</div><div class="cell cell-late">✕</div>
+
+    <div class="name">Fatou Ndao</div>
+    <div class="cell cell-paid">✓</div><div class="cell cell-paid">✓</div><div class="cell cell-paid">✓</div>
+    <div class="cell cell-late">✕</div><div class="cell cell-paid">✓</div><div class="cell cell-paid">✓</div>
+
+    <div class="name">Ibra Fall</div>
+    <div class="cell cell-late">✕</div><div class="cell cell-paid">✓</div><div class="cell cell-paid">✓</div>
+    <div class="cell cell-paid">✓</div><div class="cell cell-paid">✓</div><div class="cell cell-paid">✓</div>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat">
+      <div class="label">Collecté ce mois</div>
+      <div class="value value-green">185 000 FCFA</div>
+    </div>
+    <div class="stat">
+      <div class="label">En retard</div>
+      <div class="value value-red">3 apprenants</div>
+    </div>
+  </div>
+
+  <a href="gerant-paiement.html"><button class="btn btn-amber" style="margin-bottom:10px;">Enregistrer un paiement</button></a>
+  <a href="gerant-campagne.html"><button class="btn btn-navy">Créer une campagne</button></a>
+</main>
+
+</body>
+</html>
